@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .container{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 30px;
+  }
+  
+  h1, h2 {
+    margin: 10px 0;
+  }
+  
+  #clock {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"], select {
+    margin-right: 5px;
+  }
+  
+  #set-alarm-btn {
+    margin-left: 10px;
+  }
+  
+  #alarms-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  #alarms-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
